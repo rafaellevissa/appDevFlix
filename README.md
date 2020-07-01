@@ -11,6 +11,12 @@
 [![GitHub Stars][github-stars]][github-stars]
 [![Code Size][code-size]][code-size]
 
+Aplicativo mobile que consome a Api do Youtube e lista conteúdos para desenvolvedores de software e apaixonados por programação.
+
+<p align="center">
+  <img align="center" src="./.github/devflix.gif" alt="Web-Signin" border="0">
+</p>
+
 ## :nazar_amulet: Objetivo
 
 | Dar acesso ao conteúdo das disciplinas do curso de Desenvolvimento de Sistemas do Senai. O contéudo está em formato de vídeo.

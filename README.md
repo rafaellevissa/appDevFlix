@@ -14,7 +14,7 @@
 Aplicativo mobile que consome a Api do Youtube e lista conteúdos para desenvolvedores de software e apaixonados por programação.
 
 <p align="center">
-  <img align="center" src="./.github/devflix.gif" alt="Web-Signin" border="0">
+  <img align="center" src="./doc/devflix.gif" alt="Web-Signin" border="0">
 </p>
 
 ## :nazar_amulet: Objetivo

@@ -8,7 +8,6 @@
 
 [![NPM Version][npm-version]][npm-version]
 [![NPM License][npm-license]][npm-license]
-[![GitHub Stars][github-stars]][github-stars]
 [![Code Size][code-size]][code-size]
 
 Aplicativo mobile que consome a Api do Youtube e lista conteúdos para desenvolvedores de software e apaixonados por programação.
@@ -70,7 +69,6 @@ Este projeto está sob a [MIT license](https://github.com/rafaellevissa/appDevFl
 
 <!-- Markdown link & img dfn's -->
 
-[github-stars]: https://github.com/rafaellevissa/appDevFlix/stargazers
 [npm-license]: https://img.shields.io/npm/l/express?color=03ca6f&style=plastic
 [npm-version]: https://img.shields.io/npm/v/npm?color=333333&style=plastic
 [code-size]: https://img.shields.io/github/languages/code-size/rafaellevissa/appDevFlix?color=03ca6f&style=plastic

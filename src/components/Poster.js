@@ -3,6 +3,8 @@ import {Dimensions} from 'react-native';
 import styled from 'styled-components/native';
 import {LinearGradient} from 'expo-linear-gradient';
 
+import Hero from '../components/Hero';
+
 const PosterImg = styled.ImageBackground`
     width: 100%;
     height: ${(Dimensions.get("window").height * 40) / 100}px;
@@ -73,6 +75,7 @@ const Poster = ({ url, content, title, tags }) => {
                     <Tag>{tags[1]}</Tag>
                 </TagMenu>    
             </PosterBotton>
+            <Hero />
         </> 
     );
 };

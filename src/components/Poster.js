@@ -51,28 +51,29 @@ const Separator = styled.View`
 
 const Poster = ({ url, content, title, tags }) => {
     return(
-        <PosterImg source={{uri: url}} resizeMode="stretch">
-            <Gradient 
-                Location={[0, 0.3, 0.6, 0.93]}
-                colors={[
-                "rgba(0,0,0,0.3)",
-                "rgba(0,0,0,0.5)",
-                "rgba(0,0,0,0.5)",
-                "rgba(0,0,0,1)",
-                ]}
-            >
-                {content}
-            </Gradient>
-        </PosterImg>
-        <PosterBotton>
-            <Title>{title}</Title>
-            <TagMenu>
-                <Tag>{tags[0]}</Tag>
-                <Separator />
-                <Tag>{tags[1]}</Tag>
-            </TagMenu>    
-        </PosterBotton>
+        <>
+            <PosterImg source={{uri: url}} resizeMode="stretch">
+                <Gradient 
+                    Location={[0, 0.3, 0.6, 0.93]}
+                    colors={[
+                    "rgba(0,0,0,0.3)",
+                    "rgba(0,0,0,0.5)",
+                    "rgba(0,0,0,0.5)",
+                    "rgba(0,0,0,1)",
+                    ]}
+                >
+                    {content}
+                </Gradient>
+            </PosterImg>
+            <PosterBotton>
+                <Title>{title}</Title>
+                <TagMenu>
+                    <Tag>{tags[0]}</Tag>
+                    <Separator />
+                    <Tag>{tags[1]}</Tag>
+                </TagMenu>    
+            </PosterBotton>
+        </> 
     );
 };
-
 export default Poster;

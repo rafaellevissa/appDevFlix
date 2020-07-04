@@ -16,7 +16,7 @@ const Gradient = styled(LinearGradient)`
 
 const PosterBotton = styled.View`
     width: 100%;
-    align-itens: center;
+    align-items: center;
     justify-content: center;
 `;
 
